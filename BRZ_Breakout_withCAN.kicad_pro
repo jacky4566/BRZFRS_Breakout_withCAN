@@ -654,6 +654,12 @@
           "label": "Package",
           "name": "Package",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -704,7 +710,7 @@
         "uuid": "7736cb7b-e48d-4df1-92a6-cb2d4d558a36"
       }
     ],
-    "used_designators": "#PWR1-39,D1-2,L1,C1-17,G1-2,H1-2,J1-7,R1-31,TP1,U1-3,FB1,JP1-3,Y1-2,Q1-6,NT1",
+    "used_designators": "#PWR1-39,D1-2,L1,C1-17,G1-2,H1-2,J1-11,R1-31,TP1,U1-3,FB1,JP1-3,Y1-2,Q1-6,NT1",
     "variants": []
   },
   "sheets": [
