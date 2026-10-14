@@ -2,6 +2,8 @@
 
 An inline ECU breakout board for the Subaru BRZ / Scion FR-S / Toyota 86 with a built-in CAN I/O module.
 
+![BRZ_Breakout_withCAN PCB render](BRZ_Breakout_withCAN.png)
+
 The board sits between your aftermarket ECU and the vehicle harness. All 135 ECU pins pass straight through. The board also taps the ECU's CAN bus and +5V supply to power a small STM32 module. That module reads extra analog and digital inputs, sends them on the CAN bus, and drives four low-side outputs on CAN command.
 
 ## Credits
@@ -100,7 +102,16 @@ J6 pins 1 to 4 are all signal GND, for sensor and switch returns.
 
 ## CAN ID selection
 
-Solder jumpers **JP1** (PB7) and **JP2** (PB6) select the module's CAN ID, as on the original CANBoard. Bridging a jumper pulls its pin high through a 10k resistor. See the [CANBoard firmware](https://github.com/corygrant/CANBoard) for the IDs each jumper combination selects.
+Solder jumpers **JP1** (PB7) and **JP2** (PB6) select the module's CAN ID, as on the original CANBoard. Bridging a jumper (1) pulls its pin high through a 10k resistor.
+
+| JP1 | JP2 | CAN ID |
+|:---:|:---:|:------:|
+| 0 | 0 | 0x640 |
+| 1 | 0 | 0x650 |
+| 0 | 1 | 0x660 |
+| 1 | 1 | 0x670 |
+
+See the [CANBoard firmware](https://github.com/corygrant/CANBoard) for the message layout at each ID.
 
 ## Repository contents
 
