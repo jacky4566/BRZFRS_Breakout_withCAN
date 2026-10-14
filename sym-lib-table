@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "ProjectLib") (type "KiCad") (uri "C:/GitHub/BRZFRS_Breakout_withCAN") (options "") (descr ""))
+)

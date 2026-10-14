@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "BRZFRS_Breakout_withCAN") (type "KiCad") (uri "C:/GitHub/BRZFRS_Breakout_withCAN.pretty") (options "") (descr ""))
+	(lib (name "Project") (type "KiCad") (uri "${KIPRJMOD}/Project.pretty") (options "") (descr ""))
+)
