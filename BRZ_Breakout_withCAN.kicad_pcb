@@ -1159,6 +1159,7 @@
 		(property "Reference" "J11"
 			(at 1.27 -2.38 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "4abc0b18-bddd-4013-8fb4-94c4a44cb5cb")
 			(effects
 				(font
@@ -14044,6 +14045,7 @@
 		(property "Reference" "J10"
 			(at 1.27 -2.38 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "d6aca1d2-15d8-4360-b171-9fbe5625f535")
 			(effects
 				(font
@@ -15101,6 +15103,7 @@
 		(property "Reference" "J8"
 			(at 1.27 -2.38 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "6aee9a27-8e42-4958-9022-f0c4519aeaa3")
 			(effects
 				(font
@@ -18883,6 +18886,7 @@
 		(property "Reference" "J9"
 			(at 1.27 -2.38 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "f4168950-20e5-4a7c-99b7-eab2fe441990")
 			(effects
 				(font
@@ -19960,7 +19964,7 @@
 		)
 	)
 	(gr_text "5V\nAI1\n5V\nAI2\n5V\nAI3\n5V\nAI4\n5V\nAI5"
-		(at 134.4 155.6 90)
+		(at 143.1 156.1 90)
 		(layer "F.SilkS" knockout)
 		(uuid "8538b3e0-81be-4b73-96e7-11d577ac7ca2")
 		(effects
@@ -22793,6 +22797,65 @@
 		(layer "F.Cu")
 		(net "/CANBoard/RAW_AI5")
 		(uuid "f99fe8cc-e1a7-43b7-88b5-37050484d6c4")
+	)
+	(segment
+		(start 139.676915 149.689545)
+		(end 137.959353 151.407107)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "Net-(J2-Pad1)")
+		(uuid "2fa977a5-503c-4ed8-b9b8-27072c28e8fd")
+	)
+	(segment
+		(start 118.385786 149.7)
+		(end 101 149.7)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "Net-(J2-Pad1)")
+		(uuid "45645d4f-eb52-4bc2-a1f1-537a88251ba4")
+	)
+	(segment
+		(start 120.507107 151.407107)
+		(end 119.092893 149.992893)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "Net-(J2-Pad1)")
+		(uuid "700acf4a-0a25-4147-90d8-4aa6e1b8f2de")
+	)
+	(segment
+		(start 137.252246 151.7)
+		(end 121.214214 151.7)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "Net-(J2-Pad1)")
+		(uuid "904876a9-fc47-44d2-a2d3-f8509002b84f")
+	)
+	(arc
+		(start 120.507107 151.407107)
+		(mid 120.83153 151.62388)
+		(end 121.214214 151.7)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "Net-(J2-Pad1)")
+		(uuid "0e7d1da8-6c53-44cf-8fce-227887735fff")
+	)
+	(arc
+		(start 137.959353 151.407107)
+		(mid 137.63493 151.62388)
+		(end 137.252246 151.7)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "Net-(J2-Pad1)")
+		(uuid "b8380e97-dcb4-40be-868d-5b31bbb4c682")
+	)
+	(arc
+		(start 119.092893 149.992893)
+		(mid 118.76847 149.77612)
+		(end 118.385786 149.7)
+		(width 0.3)
+		(layer "F.Cu")
+		(net "Net-(J2-Pad1)")
+		(uuid "cc07bcf9-ff63-4e23-99df-7c374249e5a7")
 	)
 	(segment
 		(start 137.103759 146.489545)
@@ -42073,65 +42136,6 @@
 		(layer "F.Cu")
 		(net "/CANBoard/RAW_DI4")
 		(uuid "805f250f-27cb-44f7-9bf8-d0721deed104")
-	)
-	(segment
-		(start 139.676915 149.689545)
-		(end 137.959353 151.407107)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "Net-(J2-Pad1)")
-		(uuid "2fa977a5-503c-4ed8-b9b8-27072c28e8fd")
-	)
-	(segment
-		(start 118.385786 149.7)
-		(end 101 149.7)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "Net-(J2-Pad1)")
-		(uuid "45645d4f-eb52-4bc2-a1f1-537a88251ba4")
-	)
-	(segment
-		(start 120.507107 151.407107)
-		(end 119.092893 149.992893)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "Net-(J2-Pad1)")
-		(uuid "700acf4a-0a25-4147-90d8-4aa6e1b8f2de")
-	)
-	(segment
-		(start 137.252246 151.7)
-		(end 121.214214 151.7)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "Net-(J2-Pad1)")
-		(uuid "904876a9-fc47-44d2-a2d3-f8509002b84f")
-	)
-	(arc
-		(start 120.507107 151.407107)
-		(mid 120.83153 151.62388)
-		(end 121.214214 151.7)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "Net-(J2-Pad1)")
-		(uuid "0e7d1da8-6c53-44cf-8fce-227887735fff")
-	)
-	(arc
-		(start 137.959353 151.407107)
-		(mid 137.63493 151.62388)
-		(end 137.252246 151.7)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "Net-(J2-Pad1)")
-		(uuid "b8380e97-dcb4-40be-868d-5b31bbb4c682")
-	)
-	(arc
-		(start 119.092893 149.992893)
-		(mid 118.76847 149.77612)
-		(end 118.385786 149.7)
-		(width 0.3)
-		(layer "F.Cu")
-		(net "Net-(J2-Pad1)")
-		(uuid "cc07bcf9-ff63-4e23-99df-7c374249e5a7")
 	)
 	(zone
 		(net "+3V3")
